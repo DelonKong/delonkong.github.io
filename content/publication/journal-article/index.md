@@ -48,6 +48,11 @@ image:
   preview_only: false #true 就是不显示
 
 
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+comments: false  # Show comments?
+
 
 
 # Associated Projects (optional).

@@ -45,32 +45,32 @@ sections:
       columns: '1'
   
 
-#  - block: collection
-#    id: papers
-#    content:
-#    title: Featured Publications
-#      filters:
-#        folders:
-#          - publication
-#        featured_only: true
-#    design:
-#      view: article-grid
-#      columns: 
+  - block: collection
+    id: papers
+    content:
+      title: Recent Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: '2'
 
 
   - block: collection
     content:
-      title: Recent Publications
+      title: Other Publications
       text: ""
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
     design: 
       view: citation
       columns: '1'
       #view: article-grid
-      #columns: '3'
+      #columns: '2'
 
   - block: collection
     id: talks
@@ -156,7 +156,7 @@ sections:
           - awards
     design:
       view: date-title-summary
-      columns: 3
+      columns: 1
 
   - block: markdown
     id: service

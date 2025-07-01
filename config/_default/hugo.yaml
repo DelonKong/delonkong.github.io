@@ -58,3 +58,7 @@ sitemap:
 params:
   icons:
     throw_on_error: true
+  assets:
+    custom_css:
+      - css/custom.css
+
